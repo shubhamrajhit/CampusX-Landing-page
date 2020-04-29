@@ -1,0 +1,41 @@
+
+
+.navbar-brand {
+    margin-left:9rem;
+ }
+.navbar-nav {
+    margin-right:1rem;
+}
+.nav-item {
+     padding:0 1rem;
+}
+.dropdown {
+    margin-top:-8px;
+}
+.dropdown-menu{
+    border:none;
+    box-shadow: 0 6px 0 rgba(104 ,104 ,104, 0.8);
+}
+
+.dropdown-item {
+ 	color: #fff;
+ }
+@media (max-width:450px) {
+    .navbar-brand{
+    margin-left:0;
+  }
+  .navbar-nav {
+    margin-top:1rem;
+  }
+  .nav-item {
+     padding: .5rem 0;
+ }
+  .dropdown-menu {
+ 	border: none;
+ 	width:50%;
+ 	margin-left:20px;
+ 	box-shadow: 0 6px 0 rgba(104 ,104 ,104, 0.8);
+ }
+
+
+}
